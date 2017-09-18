@@ -2,7 +2,8 @@
 
 A simple [Hexo](https://hexo.io/) theme for engineering simple blogs based on a brand new theme [hexo-theme-ingenuous](https://github.com/kwhrtsk/hexo-theme-ingenuous).
 
-[Demo]()
+Demo is now ready...!  
+~~Demo~~
 
 * Made a color of css simpler without greatly changing a layout.
 * Added social service icons.
