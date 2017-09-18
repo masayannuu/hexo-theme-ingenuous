@@ -1,0 +1,9 @@
+<% if(theme.social) { %>
+    <div class="social-icon-list">
+        <% for (name in theme.social) { %>
+            <% if (theme.social[name] !== null) { %>
+                <a id="icon-<%- name %>-link" class="social-icon" href="<%- url_for(theme.social[name]) %>" target="_blank" title="<%- name %>"></a>
+            <% } %>
+        <% } %>
+    </div>
+<% } %>

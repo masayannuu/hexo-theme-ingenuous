@@ -1,39 +1,44 @@
-# Ingenuous
+# Ingenuous-Simple
 
-A simple [Hexo](https://hexo.io/) theme for engineering blogs based on a brand new default theme [Landscape](https://github.com/hexojs/hexo-theme-landscape).
+A simple [Hexo](https://hexo.io/) theme for engineering simple blogs based on a brand new theme [hexo-theme-ingenuous](https://github.com/kwhrtsk/hexo-theme-ingenuous).
 
-[Demo](http://blog.chopschips.net/)
+Demo is now ready...!  
+~~Demo~~
 
-* Optimized mobile layout that to show more information in narrow display.
-  * Most of changes of layout are intended to fit with engineering blogs.
-* Added link to scroll to widget in mobile nav.
-* Added shared counts display at each post header.
-* Added Hatena Bookmark(social bookmark service in Japan) button and remove some buttons in share tags.
-* Added about widget to sidebar.
-* Added pagination in archives page.
-* Supported keywords meta tag in front-matter(just for compatibility to octopress: even maybe legacy feature ;-)
-* Supported TOC(table of contents) insertion to article. (enable in front-matter)
-* Removed top banner and modified layout only a little.
-* Be able to disable searh form by _config.yml.
+* Made a color of css simpler without greatly changing a layout.
+* Added social service icons.
+* The change of the original theme is not lost.
+
+> * Optimized mobile layout that to show more information in narrow display.
+  > * Most of changes of layout are intended to fit with engineering blogs.
+> * Added link to scroll to widget in mobile nav.
+> * Added shared counts display at each post header.
+> * Added Hatena Bookmark(social bookmark service in Japan) button and remove some buttons in share tags.
+> * Added about widget to sidebar.
+> * Added pagination in archives page.
+> * Supported keywords meta tag in front-matter(just for compatibility to octopress: even maybe legacy feature ;-)
+> * Supported TOC(table of contents) insertion to article. (enable in front-matter)
+> * Removed top banner and modified layout only a little.
+> * Be able to disable searh form by _config.yml.
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/kwhrtsk/hexo-theme-ingenuous.git themes/ingenuous
+$ git clone https://github.com/masayannuu/hexo-theme-ingenuous-simple themes/ingenuous-simple
 ```
 
 **Ingenuous requires Hexo 2.4 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `ingenuous`.
+Modify `theme` setting in `_config.yml` to `ingenuous-simple`.
 
 ### Update
 
 ``` bash
-cd themes/ingenuous
+cd themes/ingenuous-simple
 git pull
 ```
 
@@ -56,26 +61,33 @@ sidebar: right
 # Search form
 search: true
 
+# Widgets
 widgets:
 - about
 - category
 - tag
-- tagcloud
-- archives
-- recent_posts
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+avatar:
 google_plus:
+fb_admins:
+fb_app_id:
 
-aboutme:
+social:
+  twitter: //twitter.com/
+  facebook: //www.facebook.com/
+  github: //github.com/
+
+aboutme: Write Your Profile.
+
 about:
   author: true
-  twitter: true
+  avatar: true
   aboutme: true
   description: true
+  social: true
 
 common_keywords:
 ```
