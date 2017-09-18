@@ -18,24 +18,26 @@
   overflow: hidden
 
 #header-title
-  text-align: center
+  text-align: left
   height: logo-size
   position: absolute
   top: 50%
-  left: 0
   margin-top: logo-size * -0.5
 
 $logo-text
   text-decoration: none
   color: #515151
   font-weight: 300
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
 
 #logo
   @extend $logo-text
   font-size: logo-size
   line-height: logo-size
   letter-spacing: 2px
+  border-bottom: 2px solid #222;
+  &:hover
+    color: color-link
+    border-bottom-color: color-link
 
 #subtitle
   @extend $logo-text
@@ -55,12 +57,12 @@ $nav-link
   color: #515151
   opacity: 0.6
   text-decoration: none
-  text-shadow: 0 1px rgba(0, 0, 0, 0.2)
   transition: opacity 0.2s
   display: block
   padding: 20px 15px
   &:hover
     opacity: 1
+    color: color-link
 
 .nav-icon
   @extend $nav-link
