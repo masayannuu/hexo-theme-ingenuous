@@ -19,23 +19,27 @@ widgets:
 - about
 - category
 - tag
-- tagcloud
-- archive
-- recent_posts
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+avatar:
 google_plus:
 fb_admins:
 fb_app_id:
 
-aboutme:
+social:
+  twitter: //twitter.com/
+  facebook: //www.facebook.com/
+  github: //github.com/
+
+aboutme: Your Profile.
+
 about:
   author: true
-  twitter: true
+  avatar: true
   aboutme: true
   description: true
+  social: true
 
 common_keywords:
